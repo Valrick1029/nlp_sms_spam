@@ -25,16 +25,16 @@
     Logging: Python Logging Module
 
 ### Структура проекта
-'''
+
 .
-├── src/                  # Исходный код сервиса
-│   ├── main.py           # Основной API сервер
-│   └── pipeline.py       # Логика обработки и предсказания
-├── tests/                # Автоматические тесты
-├── Dockerfile            # Инструкция для сборки контейнера
-├── requirements.txt      # Зависимости проекта
-└── retrain.py            # Скрипт автоматического переобучения
-'''
+  src/
+    main.py
+    pipeline.py
+  tests/
+  Dockerfile
+  requirements.txt
+  retrain.py
+
 ### Быстрый запуск
 
 Сборка образа:
