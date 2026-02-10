@@ -27,13 +27,14 @@
 ### Структура проекта
 
 .
-  src/
-    main.py
-    pipeline.py
-  tests/
-  Dockerfile
-  requirements.txt
-  retrain.py
+├── src/                # Исходный код сервиса
+│   ├── main.py         # Основной API сервер
+│   └── pipeline.py     # Логика обработки и предсказания
+├── tests/              # Автоматические тесты
+├── Dockerfile          # Инструкция для сборки контейнера
+├── requirements.txt    # Зависимости проекта
+└── retrain.py          # Скрипт автоматического переобучения
+
 
 ### Быстрый запуск
 
